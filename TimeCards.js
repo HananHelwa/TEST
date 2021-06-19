@@ -33,7 +33,7 @@ module.exports = {
       });
     });
 
-    req.write('{"status":"APPROVED","actual_clock":{"clock_in":"' + clockIn + '","clock_out":"' + clockOut + '","breaks":[],"sick_leave_duration":3600,"clock_out_early_reason":null,"call_in":{"status":"APPROVED"},"position":{"category":{"code":"FOH","id":1,"name":"Front of House"},"position_settings":[{"date":"2018-03-03","is_tipped":false}],"code":"barback-","id":8,"name":"Barback ","object_position_settings_is_tipped":{"2018-03-03":false},"tips_enabled":true}}}');
+    req.write('{"status":"APPROVED","actual_clock":{"clock_in":"' + clockIn + '","clock_out":"' + clockOut + '","breaks":[],"sick_leave_duration":7200,"clock_out_early_reason":null,"call_in":{"status":"APPROVED"},"position":{"category":{"code":"FOH","id":1,"name":"Front of House"},"position_settings":[{"date":"2018-03-03","is_tipped":false}],"code":"barback-","id":8,"name":"Barback ","object_position_settings_is_tipped":{"2018-03-03":false},"tips_enabled":true}}}');
 
     req.end();
 
